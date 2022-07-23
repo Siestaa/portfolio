@@ -239,13 +239,57 @@ body {
   background-color: #FFFFFF;
   text-align: center;
   margin: 0 auto;
-  padding: 115px 0;
+  padding: 115px 0 50px;
 }
 
 .footer___list-contact {
   list-style: none;
   padding: 0;
   display: flex;
-  margin: 85px auto 45px;
+  margin: 85px auto 0;
   justify-content: center;
+}
+
+.footer__list-contact__item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.footer__email {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 13px 25px;
+  background-color: #070707;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.footer__email:hover {
+  background-color: #FFFFFF;
+  color: #070707;
+  outline: 2px solid #070707;
+  border: none;
+  transition: 0.3s;
+}
+
+.footer__email:focus {
+  background-color: #FFFFFF;
+  color: #070707;
+  outline: 2px solid #070707;
+  border: none;
+  transition: 0.3s;
+}
+
+.list-contact__logo {
+  width: 40px;
+  height: 40px;
+}
+
+.list-contact__item__link:hover .list-contact__logo {
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+  margin-right: -10px;
 }
