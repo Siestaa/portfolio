@@ -233,3 +233,19 @@ body {
   color: #070707;
   margin: 45px 0 0;
 }
+
+.footer__container {
+  max-width: 940px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: 0 auto;
+  padding: 115px 0;
+}
+
+.footer___list-contact {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 85px auto 45px;
+  justify-content: center;
+}
