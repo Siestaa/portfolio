@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav class="header__navigation">
+        <ul class="header__navigation__list">
+          <li class="header__navigation__list__item">
+            <a href='#home'>Главная</a>
+          </li>
+          <li class="header__navigation__list__item">
+            <a href='#about-me'>Обо мне</a>
+          </li>
+          <li class="header__navigation__list__item">
+            <a href='#skills'>Мои умения</a>
+          </li>
+          <li class="header__navigation__list__item">
+            <a href='#'>Портфолио</a>
+          </li>
+          <li class="header__navigation__list__item">
+            <a href='#'>Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__me">
+        <div class="main__me_info">
+          <p class="main__me__info__name">Иваненко<br>Алексей</p>
+          <p class="main__me__info__job">Junior Web-developer<br>25 лет, Екатеринбург</p>
+          <div class="main__me__info_language">
+            <input type="radio" name="language" id="rus" checked>
+            <label for="rus">RU</label>
+            <p>|</p>
+            <input type="radio" name="language" id="eng">
+            <label for="eng">ENG</label>
+          </div>
+          <img class="main__me_info_photo" src="images/its me.jpg" alt="Это я, вон тот слева.">
+        </div>
+      </section>
+      <section class="main__about-me" id="about-me">
+        <div class="main__about-me__container">
+          <p class="main__about-me__container-title title"><b>Обо мне</b></p>
+          <div class="main__about-me__text">
+            <p>Привет, меня зовут Алексей - начинающий веб-разработчик из Екатеринбурга.<br>Мне очень нравится веб-разработка и все что с ней связано.</p>
+            <p>Сейчас я в начале своего пути и обучаюсь на курсах HTML-Academy.</p>
+            <p>Надеюсь вскоре я смогу начать действительно разрабатывать веб-страницы и участвовать в крутых проектах.</p>
+          </div>
+        </div>
+      </section>
+      <section class="main__skills" id="skills">
+        <div class="main__skills_container">
+          <p class="main__skills__title title"><b>Мои умения</b></p>
+          <p class="main__skills__description">Я очень стараюсь разобраться в этих вещах</p>
+          <ul class="main__skills__list">
+            <li class="main__skills__list__item">
+              <img src="images/html5.png" alt="HTML5" class="main__skills__list_item_image" width="90" height="100">
+              <p class="main__skills_list__item__title">HTML5</p>
+              <div class="main__skills__list__item__stars">
+                <span class="visually-hidden">3 звезды</span>
+                <span class="star star-point"></span>
+                <span class="star star-point"></span>
+                <span class="star star-point"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+              </div>
+            </li>
+            <li class="main__skills__list__item">
+              <img src="images/css3.png" alt="CSS3" class="main__skills__list_item_image" width="90" height="100">
+              <p class="main__skills_list__item__title">CSS3</p>
+              <div class="main__skills__list__item__stars">
+                <span class="visually-hidden">2 звезды</span>
+                <span class="star star-point"></span>
+                <span class="star star-point"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+              </div>
+            </li><li class="main__skills__list__item">
+              <img src="images/JS.png" alt="Java Script" class="main__skills__list_item_image" width="90" height="100">
+              <p class="main__skills_list__item__title">JavaScript</p>
+              <div class="main__skills__list__item__stars">
+                <span class="visually-hidden">1 звезды</span>
+                <span class="star star-point"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+              </div>
+            </li><li class="main__skills__list__item">
+              <img src="images/Figma.png" alt="Figma" class="main__skills__list_item_image" width="90" height="100">
+              <p class="main__skills_list__item__title">Figma</p>
+              <div class="main__skills__list__item__stars">
+                <span class="visually-hidden">2 звезды</span>
+                <span class="star star-point"></span>
+                <span class="star star-point"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main__portfolio">
+        <div class="main__portfolio__container">
+          <p class="main__portfolio__title title"><b>Портфолио</b></p>
+          <ul class="main__portfolio_list">
+            <li class="main__portfolio__list__item">
+              <a href="https://siestaa.github.io/2032577-gllacy-34/" class="portfolio__item__link" target="_blank">
+                <img src="images/Gllacy.jpg" alt="Gllacy Магазин мороженного." class="portfolio__item__link__image" width="940">
+                <p class="portfolio__item__link__title">Gllacy Shop - Магазин мороженного</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <p class="footer__title title"><b>Контакты</b></p>
+        <p class="footer__text">Хотите узнать что-то еще или просто поболать?<br>Всегда буду рад!</p>
+        <a href="mailto:lex.qz97@gmail.com" class="footer__email">Написать сообщение</a>
+        <ul class="footer___list-contact">
+          <li class="footer__list-contact__item">
+            <a href="https://vk.com/strange_pineapple" class="list-contact__item__link">
+              <p class="visually-hidden">VK</p>
+              <svg aria-hidden="true" focusable="false" width="40" height="40" viewBox="0 0 40 40" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.37 3.37C0 6.75 0 12.17 0 23.04v1.92c0 10.86 0 16.3 3.37 19.67C6.75 48 12.17 48 23.04 48h1.92c10.86 0 16.3 0 19.67-3.37C48 41.25 48 35.83 48 24.96v-1.92c0-10.86 0-16.3-3.37-19.67C41.25 0 35.83 0 24.96 0h-1.92C12.18 0 6.74 0 3.37 3.37ZM8.1 14.6c.26 12.48 6.5 19.98 17.44 19.98h.62v-7.14c4.02.4 7.06 3.34 8.28 7.14h5.68a15.79 15.79 0 0 0-8.22-10.02c2.56-1.48 6.16-5.08 7.02-9.96h-5.16c-1.12 3.96-4.44 7.56-7.6 7.9v-7.9H21v13.84c-3.2-.8-7.24-4.68-7.42-13.84H8.1Z" fill="#000"/></svg>
+            </a>
+          </li>
+          <li class="footer__list-contact__item">
+            <a href="https://t.me/Sieeesta" class="list-contact__item__link">
+              <p class="visually-hidden">Telegram</p>
+              <svg aria-hidden="true" focusable="false"  viewBox="0 0 50 50" width="50" height="50"><path d="M25 8a17 17 0 1 1 0 34 17 17 0 0 1 0-34zm5.86 23.93c.32-.96 1.78-10.52 1.96-12.4.06-.58-.12-.96-.48-1.12-.42-.2-1.06-.1-1.79.16-1 .36-13.88 5.82-14.62 6.14-.7.3-1.37.63-1.37 1.1 0 .33.2.52.74.72.57.2 2 .63 2.83.86.82.23 1.74.03 2.26-.29.54-.34 6.87-4.58 7.33-4.95.45-.37.81.1.44.48l-5.29 5.17c-.7.71-.2 1.44.27 1.74.53.33 4.36 2.9 4.94 3.32.58.41 1.16.6 1.7.6s.82-.71 1.08-1.53z"/></svg>
+            </a>
+          </li>
+          <li class="footer__list-contact__item">
+            <a href="https://github.com/Siestaa" class="list-contact__item__link">
+              <p class="visually-hidden">GitHub</p>
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 50 50" width="50" height="50"><path d="M10.9 2.1c-4.6.5-8.3 4.2-8.8 8.7-.5 4.7 2.2 8.9 6.3 10.5.3.1.6-.1.6-.5v-1.6s-.4.1-.9.1c-1.4 0-2-1.2-2.1-1.9-.1-.4-.3-.7-.6-1-.3-.1-.4-.1-.4-.2 0-.2.3-.2.4-.2.6 0 1.1.7 1.3 1 .5.8 1.1 1 1.4 1 .4 0 .7-.1.9-.2.1-.7.4-1.4 1-1.8-2.3-.5-4-1.8-4-4 0-1.1.5-2.2 1.2-3-.1-.2-.2-.7-.2-1.4 0-.4 0-1 .3-1.6 0 0 1.4 0 2.8 1.3a6.45 6.45 0 0 1 3.9 0C15.3 6 16.8 6 16.8 6c.2.6.2 1.2.2 1.6 0 .8-.1 1.2-.2 1.4.7.8 1.2 1.8 1.2 3 0 2.2-1.7 3.5-4 4 .6.5 1 1.4 1 2.3v2.6c0 .3.3.6.7.5 3.7-1.5 6.3-5.1 6.3-9.3 0-6-5.1-10.7-11.1-10z"/></svg>
+            </a>
+          </li>
+          <li class="footer__list-contact__item">
+            <a href="tel:+79514256194" class="list-contact__item__link">
+              <p class="visually-hidden">My phone number</p>
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 50 50" width="50" height="50"><path d="M14 3.99c-5.51 0-10 4.49-10 10v22c0 5.51 4.49 10 10 10h22c5.51 0 10-4.49 10-10v-22c0-5.51-4.49-10-10-10H14zm4 8.04c.63.03 1.21.38 1.56.93l1.8 2.83c.74 1.14.79 2.61.14 3.8l-1.47 2.08a2 2 0 0 0-.2 1.93 12.4 12.4 0 0 0 6.57 6.58 2 2 0 0 0 1.93-.21l2.08-1.47a3.75 3.75 0 0 1 3.8.13l2.83 1.81c.55.35.9.93.93 1.55.15 3.57-2.61 5.01-3.41 5.01-.56 0-7.24.76-14.78-6.78C12.24 22.68 13 16 13 15.44c0-.8 1.44-3.56 5-3.4z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
